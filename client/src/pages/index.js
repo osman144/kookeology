@@ -4,102 +4,56 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class IndexPost extends React.Component {
+class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    return (
-      <React.Fragment>
-        <div className="row product-main">
-          {data.data.allProduct.edges.map(item => (
-            <div
-              className="Catalogue__item col-sm-12 col-md-6 col-lg-4"
-              key={item.node.id}
-            >
-              <Link to={`/${item.node.slug}`}>
-                <div className="details_List">
-                  {item.node.productImage && item.node.productImage[0] ? (
-                    <Img
-                      sizes={{
-                        src: `https://api.flotiq.com/image/1920x0/${item.node.productImage[0].id}.${item.node.productImage[0].extension}`,
-                        aspectRatio: 1.77,
-                        sizes: "",
-                        srcSet: "",
-                      }}
-                    />
-                  ) : (
-                    <div className="no-image">No Image</div>
-                  )}
+    return ( 
+      <Layout>
+        <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+          <div className="site-About">
+            <div className="container">
+            <div className="row">
+                <div className="col-sm-12">
+                    <h1>Gatsby Starter: Ecommerce and Flotiq</h1>
+                    <p>Ecommerce starter: <a href="https://www.gatsbyjs.org/">Gatsby</a> + <a href="https://flotiq.com">Flotiq</a> + <a href="https://snipcart.com">Snipcart</a>.</p>
+                    <p>Live Demo: <a href="https://flotiq-starter-products.herokuapp.com">https://flotiq-starter-products.herokuapp.com</a></p>
+                    <p>Quick start: <a href="https://github.com/flotiq/gatsby-starter-products/blob/master/README.md">https://github.com/flotiq/gatsby-starter-products</a></p>
 
-                  <div className="details_inner">
-                    <h2>{item.node.name}</h2>
-                    <div className="row">
-                      <div className="col-sm-4 align-self-center">
-                        <span className="price">${item.node.price}</span>
-                      </div>
-                      <div className="col-sm-8 text-right align-self-center">
-                        <a
-                          href="/"
-                          className="Product snipcart-add-item"
-                          data-item-id={item.node.slug}
-                          data-item-price={item.node.price}
-                          data-item-image={
-                            item.node.productImage && item.node.productImage[0]
-                              ? `https://api.flotiq.com/image/1920x0/${item.node.productImage[0].id}.${item.node.productImage[0].extension}`
-                              : ""
-                          }
-                          data-item-name={item.node.name}
-                          data-item-url={`/`}
-                        >
-                          <i className="fas fa-shopping-bag" />
-                          Add to Cart
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+
+                    <ul>
+                        <li>
+                            <p><strong>For most developers, we recommend starting with our <a href="https://www.gatsbyjs.org/tutorial/">in-depth tutorial for creating a site with Gatsby</a>.</strong> It starts with zero assumptions about your level of ability and walks through every step of the process.</p>
+                        </li>
+                        <li>
+                            <p><strong>To dive straight into code samples, head <a href="https://www.gatsbyjs.org/docs/">to our documentation</a>.</strong> In particular, check out the <em>Guides</em>, <em>API Reference</em>, and <em>Advanced Tutorials</em> sections in the sidebar.</p>
+                        </li>
+                    </ul>
+
+                    <h2 id="learningflotiq">Learning Flotiq</h2>
+
+                    <p>Using Flotiq you model, author and consume your content, your way. Flotiq is an API-first CMS that takes care of hosting, securing and scaling to guarantee your content is always on.</p>
+                    <p>See what you can do with Flotiq Headless CMS System:</p>
+                    <ul>
+                        <li>
+                            <p><a href="https://flotiq.com">Flotiq.com homepage</a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://flotiq.com/docs">Flotiq docs</a></p>
+                        </li>
+                        <li>
+                            <p><a href="https://github.com/flotiq">Explore example repositories</a></p>
+                        </li>
+                    </ul>
+
+                    <h2 id="deploy">Deploy</h2>
+                    <p>You can deploy this project to Heroku in 3 minutes:</p>
+                    <p><a href="https://heroku.com/deploy?template=https://github.com/flotiq/gatsby-starter-products"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
                 </div>
-              </Link>
+                </div>
             </div>
-          ))}
-        </div>
-      </React.Fragment>
+          </div>
+      </Layout>
     )
-  }
+}
 }
 
-const IndexPage = data => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="container">
-      <div className="text-center mt-5">
-        <h2 className="with-underline">All Items</h2>
-      </div>
-      <IndexPost data={data}></IndexPost>
-    </div>
-  </Layout>
-)
-
 export default IndexPage
-
-export const query = graphql`
-  query AboutQuery {
-    allProduct(sort: { fields: flotiqInternal___createdAt, order: DESC }) {
-      edges {
-        node {
-          id
-          slug
-          name
-          price
-          description
-          productImage {
-            id
-            extension
-          }
-          productGallery {
-            id
-            extension
-          }
-        }
-      }
-    }
-  }
-`
