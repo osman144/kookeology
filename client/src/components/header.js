@@ -5,8 +5,7 @@ import "../css/font-awesome.css"
 import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
 // import logo from "../images/oneshopper-logo.png"
-import logo from "../images/kookeology.jpg"
-
+import logo from "../images/kookeology-png.png"
 
 
 const Header = ({ siteTitle }) => (
@@ -14,7 +13,7 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className="row">
         <div className="col-sm-12 col-md-4 align-self-center">
-          <Link className="header-logo" to="/"><img width='10px' src={logo} alt="OneShopper logo"></img></Link>
+          <Link className="header-logo" to="/"><img src={logo} alt="OneShopper logo"></img></Link>
         </div>
         <div className="col-sm-12 col-md-8 align-self-center">
           <nav>
@@ -26,7 +25,7 @@ const Header = ({ siteTitle }) => (
                 <Link className="nav-link" to="/all">Buy Now</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/about">Our Story</Link>
               </li>
             </ul>
             <div className="header-cart">

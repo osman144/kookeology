@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
             <div className="container">
             <div className="row">
                 <div className="col-sm-12">
-                    <h1>Gatsby Starter: Ecommerce and Flotiq</h1>
+                    <h1>Kookeology 🍪 is Black Women owned small business. Started in Minneapolis, MN. ❤️</h1>
                     <p>Ecommerce starter: <a href="https://www.gatsbyjs.org/">Gatsby</a> + <a href="https://flotiq.com">Flotiq</a> + <a href="https://snipcart.com">Snipcart</a>.</p>
                     <p>Live Demo: <a href="https://flotiq-starter-products.herokuapp.com">https://flotiq-starter-products.herokuapp.com</a></p>
                     <p>Quick start: <a href="https://github.com/flotiq/gatsby-starter-products/blob/master/README.md">https://github.com/flotiq/gatsby-starter-products</a></p>
