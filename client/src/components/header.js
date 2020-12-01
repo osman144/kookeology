@@ -9,36 +9,33 @@ import logo from "../images/kookeology-png.png"
 
 
 const Header = ({ siteTitle }) => (
-  <header className="site-header">
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-12 col-md-4 align-self-center">
-          <Link className="header-logo" to="/"><img src={logo} alt="OneShopper logo"></img></Link>
+  <header id="header">
+    <div class="left-part"></div>
+    <div id="logo"></div>
+    <div class="bar-holder">
+      <nav id="nav">
+        <ul>
+          <li>
+            <Link className="nav-link" to="/">Home</Link>
+          </li>
+          <li>
+            <Link className="nav-link" to="/all">Order Cookies</Link>
+          </li>
+          <li>
+            <Link className="nav-link" to="/about">Our Story</Link>
+          </li>
+          <li>
+            <Link className="nav-link" to="/contact">Contact Us</Link>
+          </li>
+        </ul>
+        <div className="header-cart">
+          <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
+            <i className="fas fa-cart-plus"></i>
+          </Link>
         </div>
-        <div className="col-sm-12 col-md-8 align-self-center">
-          <nav>
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <Link className="nav-link" to="/">Home</Link>
-              </li>
-              <li className="nav-item active">
-                <Link className="nav-link" to="/all">Buy Now</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">Our Story</Link>
-              </li>
-            </ul>
-            <div className="header-cart">
-              <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
-                <i className="fas fa-cart-plus"></i>
-              </Link>
-            </div>
-          </nav>
-        </div>
-      </div>
+      </nav>
     </div>
-
-  </header >
+  </header>
 )
 
 Header.propTypes = {

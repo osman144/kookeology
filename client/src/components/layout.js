@@ -30,6 +30,7 @@ const Layout = ({ children }) => (
         <div>
           <main>{children}</main>
         </div>
+        <div class="top-blue-border"></div>
         <Footer />
       </>
     )}

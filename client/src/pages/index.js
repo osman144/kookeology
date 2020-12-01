@@ -12,41 +12,49 @@ class IndexPage extends React.Component {
           <div className="site-About">
             <div className="container">
             <div className="row">
-                <div className="col-sm-12">
-                    <h1>Kookeology 🍪 is Black Women owned small business. Started in Minneapolis, MN. ❤️</h1>
-                    <p>Ecommerce starter: <a href="https://www.gatsbyjs.org/">Gatsby</a> + <a href="https://flotiq.com">Flotiq</a> + <a href="https://snipcart.com">Snipcart</a>.</p>
-                    <p>Live Demo: <a href="https://flotiq-starter-products.herokuapp.com">https://flotiq-starter-products.herokuapp.com</a></p>
-                    <p>Quick start: <a href="https://github.com/flotiq/gatsby-starter-products/blob/master/README.md">https://github.com/flotiq/gatsby-starter-products</a></p>
-
-
-                    <ul>
-                        <li>
-                            <p><strong>For most developers, we recommend starting with our <a href="https://www.gatsbyjs.org/tutorial/">in-depth tutorial for creating a site with Gatsby</a>.</strong> It starts with zero assumptions about your level of ability and walks through every step of the process.</p>
-                        </li>
-                        <li>
-                            <p><strong>To dive straight into code samples, head <a href="https://www.gatsbyjs.org/docs/">to our documentation</a>.</strong> In particular, check out the <em>Guides</em>, <em>API Reference</em>, and <em>Advanced Tutorials</em> sections in the sidebar.</p>
-                        </li>
-                    </ul>
-
-                    <h2 id="learningflotiq">Learning Flotiq</h2>
-
-                    <p>Using Flotiq you model, author and consume your content, your way. Flotiq is an API-first CMS that takes care of hosting, securing and scaling to guarantee your content is always on.</p>
-                    <p>See what you can do with Flotiq Headless CMS System:</p>
-                    <ul>
-                        <li>
-                            <p><a href="https://flotiq.com">Flotiq.com homepage</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://flotiq.com/docs">Flotiq docs</a></p>
-                        </li>
-                        <li>
-                            <p><a href="https://github.com/flotiq">Explore example repositories</a></p>
-                        </li>
-                    </ul>
-
-                    <h2 id="deploy">Deploy</h2>
-                    <p>You can deploy this project to Heroku in 3 minutes:</p>
-                    <p><a href="https://heroku.com/deploy?template=https://github.com/flotiq/gatsby-starter-products"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy" /></a></p>
+                <div className="col-md-12">
+                  <div class="top-pink-border"></div>
+                  <h1 style={{textAlign: 'center'}} >Kookeology 🍪 is Black Women owned Bakery.</h1>
+                  <h1 style={{textAlign: 'center'}} >Started with ❤️ in Minneapolis.</h1>
+                  <div class="bottom-pink-border"></div>
+                  <div className="row">
+                    <div class="widget-boxes col-md-4">
+                      <a>
+                        <div class="box-info about">
+                          <h2>About us</h2>
+                          <p>New York style cookies made with authentic chocolate!</p>
+                          <p>Huge, yummy, chocolatey, gooey cookies.</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="widget-boxes col-md-4">
+                        <a>
+                          <div class="box-info experience">
+                            <h2>Our experience</h2>
+                            <p>Perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam aperiam eaque dolor lorem.</p>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="widget-boxes col-md-4">
+                      <a>
+                        <div class="box-info fun">
+                          <h2>Our Hours</h2>
+                          <p>Monday - Friday</p>
+                          <ul>
+                            <li>
+                              11AM to 8PM
+                            </li>
+                          </ul>
+                          <p>Saturday to Sunday</p>
+                          <ul>
+                            <li>
+                              8AM to 11PM
+                            </li>
+                          </ul>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 </div>
             </div>
