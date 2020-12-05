@@ -13,10 +13,10 @@ class IndexPage extends React.Component {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                  <div class="top-pink-border"></div>
+                  {/* <div class="top-pink-border"></div> */}
                   <h1 style={{textAlign: 'center'}} >Kookeology 🍪 is Black Women owned Bakery.</h1>
                   <h1 style={{textAlign: 'center'}} >Started with ❤️ in Minneapolis.</h1>
-                  <div class="bottom-pink-border"></div>
+                  {/* <div class="bottom-pink-border"></div> */}
                   <div className="row">
                     <div class="widget-boxes col-md-4">
                       <a>
