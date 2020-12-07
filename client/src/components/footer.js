@@ -5,6 +5,7 @@ class Footer extends React.Component {
     render() {
         return (
             <footer className="site-footer">
+              <div class="top-blue-border"></div>
                 <div className="footer_inner">
                     <div className="container">
                       <div className="row">
@@ -23,9 +24,9 @@ class Footer extends React.Component {
                           </ul>
                         </div>
                         <div className="col">
-                          <h3>Newsletter</h3>
-                          <p className="form-newsletter">Voluptas sit aspernatur consequuntur.</p>
-                          
+                          <h3>NewsLetter</h3>
+                          <p className="form-newsletter">Email us: Kookeology@gmail.com</p>
+                          <p>Click to sign up for Newsletter and regular updates.</p>
                         </div>
                       </div>
                       <div className="footer-bottom social-right-menu ">
