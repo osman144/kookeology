@@ -8,7 +8,7 @@ class IndexPage extends React.Component {
   render() {
     return ( 
       <Layout>
-        <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Kookeology" keywords={[`cookie`, `minneapolis`, `minnesota`, 'chocolate', 'bakery']} />
           <div className="site-About">
             <div className="container">
               <div className="row">
@@ -69,7 +69,7 @@ class IndexPage extends React.Component {
                             height="600"
                             style={{
                               "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", "display": "block", "margin": "0px 0px 12px", 
+                              "box-shadow": "none", 
                               "min-width": "60px", "padding": "0px;"}}
                           ></iframe>
                         </div>
@@ -84,7 +84,7 @@ class IndexPage extends React.Component {
                             height="600"
                             style={{
                               "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", "display": "block", "margin": "0px 0px 12px", 
+                              "box-shadow": "none", 
                               "min-width": "60px", "padding": "0px;"}}
                           ></iframe>
                         </div>
@@ -99,7 +99,7 @@ class IndexPage extends React.Component {
                             height="600"
                             style={{
                               "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", "display": "block", "margin": "0px 0px 12px", 
+                              "box-shadow": "none", 
                               "min-width": "60px", "padding": "0px;"}}
                           ></iframe>
                         </div>

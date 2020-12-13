@@ -3,8 +3,8 @@ dotenv.config();
 
 module.exports = {
   siteMetadata: {
-    title: `OneShopper`,
-    description: `A starter for a e-commerce powered by Gatsby and Flotiq`,
+    title: `By Naima Abdi`,
+    description: `Bakery`,
     author: `@flotiq`,
   },
   plugins: [{
@@ -29,13 +29,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OneShopper`,
+        name: `Kookeology`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#4DB58E`,
         theme_color: `#4DB58E`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/cookie.png`,
       },
     },
     {
