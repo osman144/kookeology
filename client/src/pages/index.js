@@ -14,8 +14,8 @@ class IndexPage extends React.Component {
               <div className="row">
                 <div className="col-md-12">
                   {/* <div class="top-pink-border"></div> */}
-                  <h1 style={{textAlign: 'center', "font-family": 'Gochi Hand', color:"#5a8c99"}} >Kookeology 🍪 is Black Women owned Bakery.</h1>
-                  <h1 style={{textAlign: 'center', "font-family": 'Roboto', color:"#5a8c99"}} >Started with ❤️ in Minnesota.</h1>
+                  <h1 style={{textAlign: 'center', "font-family": 'Gochi Hand', color:"#5a8c99"}} >Kookeology 🍪 is a Black-Women owned Bakery.</h1>
+                  <h1 style={{textAlign: 'center', "font-family": 'Roboto', color:"#5a8c99"}} >It was started with ❤️ in Minnesota.</h1>
                   {/* <div class="bottom-pink-border"></div> */}
                   <div className="row">
                     <div class="widget-boxes col-md-4">
