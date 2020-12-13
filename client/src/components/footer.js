@@ -25,8 +25,7 @@ class Footer extends React.Component {
                         </div>
                         <div className="col-md-4 mb-4">
                           <h3>Shoot us an email</h3>
-                          <p className="form-newsletter">Contact us: Kookeology@gmail.com</p>
-                          <p>Contact us and ask us a question or leave a comment.</p>
+                          <p className="form-newsletter">Kookeology@gmail.com</p>
                         </div>
                       </div>
                       <div className="footer-bottom social-right-menu ">
