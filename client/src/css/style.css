@@ -343,7 +343,7 @@ body {
 	font-family: 'Arvo', serif;
 	font-size: 15px;
 	color: #9e9994;
-	background: #fffbf7;
+	background: #fff;
 	-webkit-text-size-adjust: none; 
 }
 
@@ -1481,7 +1481,6 @@ input.white[type=submit]:hover{
 	}
 	#header{
 		padding: 170px 0 0;
-		margin-bottom: 50px;
 	}
 	.slide-info{
 		top: 60px;
@@ -1498,8 +1497,7 @@ input.white[type=submit]:hover{
 	}
 	.bar-holder {margin:0; width: auto;}
 	#nav {
-		margin-top:30px;
-		display: none;
+		display: inline-table;
 	}
 	#nav ul li {
 		display:block;
@@ -1510,7 +1508,7 @@ input.white[type=submit]:hover{
 		padding: 8px 0;
 	}
 	#nav ul a:hover {
-		background:#98785b;
+		background:#f5e664;
 		color: #fff;
 		text-decoration:none;
 	}
@@ -1726,7 +1724,6 @@ input.white[type=submit]:hover{
 	}
 }
 
-@media (-webkit-min-device-pixel-ratio:2),(min--moz-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-device-pixel-ratio:2),(min-resolution:192dpi),(min-resolution:2dppx){
 	#logo {
 		width: 142px;
 		height: 145px;
@@ -1924,5 +1921,4 @@ input.white[type=submit]:hover{
 			background-size: 300px 135px;
 		}
 	}
-}
 

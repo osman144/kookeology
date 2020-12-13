@@ -19,20 +19,20 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/">Home</Link>
           </li>
           <li>
-            <Link className="nav-link" to="/all">Order Cookies</Link>
+            <Link className="nav-link" to="/all">Order Cookies <a style={{color: "red"}}>Now!</a></Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="nav-link" to="/about">Our Story</Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link className="nav-link" to="/contact">Contact Us</Link>
+          </li> */}
+          <li>
+            <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
+              <i className="fas fa-cart-plus"></i>
+            </Link>
           </li>
         </ul>
-        <div className="header-cart">
-          <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
-            <i className="fas fa-cart-plus"></i>
-          </Link>
-        </div>
       </nav>
     </div>
   </header>
