@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/">Home</Link>
           </li>
           <li>
-            <Link className="nav-link" to="/all">Order Cookies <a style={{color: "red"}}>Now!</a></Link>
+            <Link className="nav-link" to="/all">Order Cookies <a style={{color: "#54afe4"}}>Now!</a></Link>
           </li>
           {/* <li>
             <Link className="nav-link" to="/about">Our Story</Link>

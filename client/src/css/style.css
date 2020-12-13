@@ -497,10 +497,10 @@ input.white[type=submit]:hover{
 	/* font-family: 'Gochi Hand', cursive; */
   font-size: 24px;
   font-weight: bolder;
-	color: #ea6b6e;
+	/* color: #ea6b6e; */
 }
 #nav ul a {
-	color: #98785b;
+	color: #6f6f7e;
 }
 #nav ul a:hover, #nav ul a.active {
 	color: #ea6b6e;
