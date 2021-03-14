@@ -13,7 +13,6 @@ class Footer extends React.Component {
                           <h3>Find us:</h3>
                           <address style={{margin: 0}} className="map">Minneapolis, MN</address>
                           <address style={{margin: 0}} className="mail"><a href="mailto:kookeology@gmail.com">kookeology@gmail.com</a></address>
-                          <address style={{margin: 0}} className="phone">(990) 000 0000</address>
                         </div>
                         <div className="col-md-4 mb-4">
                           <h3>Follow us</h3>
@@ -24,7 +23,7 @@ class Footer extends React.Component {
                           </ul>
                         </div>
                         <div className="col-md-4 mb-4">
-                          <h3>Shoot us an email</h3>
+                          <h3>Send us an email</h3>
                           <p className="form-newsletter">Kookeology@gmail.com</p>
                         </div>
                       </div>

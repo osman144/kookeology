@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
 // import logo from "../images/oneshopper-logo.png"
 import logo from "../images/kookeology-png.png"
+import {Button} from 'react';
 
 
 const Header = ({ siteTitle }) => (
@@ -19,14 +20,8 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/">Home</Link>
           </li>
           <li>
-            <Link className="nav-link" to="/all">Order Cookies <a style={{color: "#54afe4"}}>Now!</a></Link>
+            <Link class="custom-button" to="/all">Order Cookies <a style={{color: "#54afe4"}}>Now!</a></Link>
           </li>
-          {/* <li>
-            <Link className="nav-link" to="/about">Our Story</Link>
-          </li> */}
-          {/* <li>
-            <Link className="nav-link" to="/contact">Contact Us</Link>
-          </li> */}
           <li>
             <Link className="Header__summary snipcart-summary snipcart-checkout" to="#">
               <i className="fas fa-cart-plus"></i>

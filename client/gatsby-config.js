@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#4DB58E`,
         theme_color: `#4DB58E`,
         display: `minimal-ui`,
-        icon: `src/images/cookie.png`,
+        icon: `src/images/kookeology_cropped_lighter.png`,
       },
     },
     {

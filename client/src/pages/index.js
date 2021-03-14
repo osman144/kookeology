@@ -14,94 +14,60 @@ class IndexPage extends React.Component {
               <div className="row">
                 <div className="col-md-12">
                   {/* <div class="top-pink-border"></div> */}
-                  <h1 style={{textAlign: 'center', "font-family": 'Gochi Hand', color:"#5a8c99"}} >Kookeology 🍪 is a Black-Women owned Bakery.</h1>
-                  <h1 style={{textAlign: 'center', "font-family": 'Roboto', color:"#5a8c99"}} >It was started with ❤️ in Minnesota.</h1>
+                  <h1 style={{textAlign: 'center', "font-family": 'Gochi Hand', color:"#5a8c99"}} >Fresh warm New York Style Cookies!</h1>
+                  {/* <h1 style={{textAlign: 'center', "font-family": 'Roboto', color:"#5a8c99"}} >It was started with ❤️ in Minnesota.</h1> */}
                   {/* <div class="bottom-pink-border"></div> */}
                   <div className="row">
-                    <div class="widget-boxes col-md-4">
+                    <div className="widget-boxes col-md-4">
                       <a>
-                        <div class="box-info about">
-                          <h2>About us</h2>
-                          <p>New York style cookies made with authentic chocolate!</p>
-                          <p>Huge, yummy cookies.</p>
+                        <div className="box-info about">
+                          <h2>Our Story</h2>
+                          <p style={{paddingBottom: "20px", fontSize:"20px"}}>
+                            Kookeology 🍪 is a Black-Women owned Bakery.
+                          </p>
+                          <p className="mt-2" style={{ fontSize:"20px"}}>
+                            It was started with ❤️ in Minnesota.
+                          </p>
                         </div>
                       </a>
                     </div>
-                    <div class="widget-boxes col-md-4">
+                    <div className="widget-boxes col-md-4">
                         <a>
-                          <div class="box-info experience">
-                            <h2>Our experience</h2>
-                            <p>Perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam aperiam eaque dolor lorem.</p>
+                          <div className="box-info experience">
+                            <h2>Flavors</h2>
+                            <p className="text-flavor" style={{ paddingBottom: "20px"}}> Sea Salt Nutella (hazelnuts) <span img>🌰</span> </p>
+                            <p className="text-flavor" style={{ paddingBottom: "20px"}}> Birthday Cake <span img>🎂</span> </p>
+                            <p className="text-flavor" > Matcha Macadamia <span img>🍵 🌿</span> </p>
                           </div>
                         </a>
                     </div>
-                    <div class="widget-boxes col-md-4">
+                    <div className="widget-boxes col-md-4">
                       <a>
-                        <div class="box-info fun">
+                        <div className="box-info fun" style={{ fontSize:"20px"}}>
                           <h2>Our Hours</h2>
-                          <p>Monday - Friday</p>
-                          <ul>
-                            <li>
-                              11AM to 8PM
-                            </li>
-                          </ul>
-                          <p>Saturday to Sunday</p>
-                          <ul>
-                            <li>
-                              8AM to 11PM
-                            </li>
-                          </ul>
+                          <p style={{ paddingBottom: "20px"}}>Monday - Friday 11AM to 8PM</p>
+                          <p>Saturday to Sunday 8AM to 11PM</p>
                         </div>
                       </a>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div className="row">
+                  <div className="row" style={{marginTop: "20px"}}>
+                    <div className="col-md-12">
+                      <div class="row">
                         <div class="widget-boxes col-md">
-                          <iframe
-                            src="https://instagram.com/p/CGDRwBjAHw-/embed"
-                            frameborder="20"
-                            allowfullscreen
-                            scrolling="no"
-                            allowtransparency
-                            width="350"
-                            height="600"
-                            style={{
-                              "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", 
-                              "min-width": "60px", "padding": "0px;"}}
-                          ></iframe>
+                          <a href="https://www.instagram.com/p/CMS0gmwgFsV/" target="blank">
+                            <img className="birthday_cake"/>
+                          </a>
                         </div>
                         <div class="widget-boxes col-md">
-                          <iframe
-                            src="https://instagram.com/p/CExGjzxg9-v/embed"
-                            frameborder="20"
-                            allowfullscreen
-                            scrolling="no"
-                            allowtransparency
-                            width="350"
-                            height="600"
-                            style={{
-                              "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", 
-                              "min-width": "60px", "padding": "0px;"}}
-                          ></iframe>
+                          <a href="https://www.instagram.com/p/CMXyPvgA6at/" target="blank">
+                            <img className="matcha_green"/>
+                          </a>
                         </div>
                         <div class="widget-boxes col-md">
-                          <iframe
-                            src="https://instagram.com/p/CEa4JnRAcoA/embed"
-                            frameborder="20"
-                            allowfullscreen
-                            scrolling="no"
-                            allowtransparency
-                            width="350"
-                            height="600"
-                            style={{
-                              "border-radius": "3px", "border": "1px solid #dbdbdb", 
-                              "box-shadow": "none", 
-                              "min-width": "60px", "padding": "0px;"}}
-                          ></iframe>
+                          <a href="https://www.instagram.com/p/CMS0gmwgFsV/" target="blank">
+                          <img className="birthday_cake"/>
+                          </a>
                         </div>
                       </div>
                     </div>
