@@ -65,8 +65,8 @@ class IndexPage extends React.Component {
                           </a>
                         </div>
                         <div class="widget-boxes col-md">
-                          <a href="https://www.instagram.com/p/CMS0gmwgFsV/" target="blank">
-                          <img className="birthday_cake"/>
+                          <a href="https://www.instagram.com/p/CMSMY56AePN/" target="blank">
+                          <img className="nutella"/>
                           </a>
                         </div>
                       </div>
