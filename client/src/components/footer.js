@@ -10,7 +10,7 @@ class Footer extends React.Component {
                     <div className="container">
                       <div className="row">
                         <div className="col-md-4 mb-4 ">
-                          <h3>Find us:</h3>
+                          <h3>Find us</h3>
                           <address style={{margin: 0}} className="map">Minneapolis, MN</address>
                           <address style={{margin: 0}} className="mail"><a href="mailto:kookeology@gmail.com">kookeology@gmail.com</a></address>
                         </div>
