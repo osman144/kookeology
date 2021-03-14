@@ -630,8 +630,11 @@ input.white[type=submit]:hover{
   height: 300px;
   border-radius: 8px;
   box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%), 0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
-  content: url(../images/birthday_cake2.jpeg);
+  content: url(../images/optimized-birthday_cake2.jpeg);
   display: block;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .matcha_green {
@@ -639,8 +642,11 @@ input.white[type=submit]:hover{
   height: 300px;
   border-radius: 8px;
   box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%), 0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
-  content: url(../images/matcha_green1.jpeg);
+  content: url(../images/optimized-matcha_green1.jpeg);
   display: block;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .nutella {
@@ -648,8 +654,11 @@ input.white[type=submit]:hover{
   height: 300px;
   border-radius: 8px;
   box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%), 0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
-  content: url(../images/nutella_1.jpeg);
+  content: url(../images/optimized-nutella_1.jpeg);
   display: block;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
 }
 
 .top-pink-border{
